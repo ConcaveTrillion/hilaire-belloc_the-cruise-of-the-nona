@@ -1,7 +1,11 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/* Centered dedications */
+/* Start Dedication */
+/*
+    Small centered first dedication only.
+    Second dedication gets standard chapter formatting.
+*/
 section#dedication-1[epub|type~="dedication"]{
 	text-align: center;
 }
@@ -28,12 +32,12 @@ section#dedication-1[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* End centered dedications */
 
-/* custom small dedication style */
+/* Custom justification/style as in printed text. */
 section#dedication-1[epub|type~="dedication"] p{
     line-height: 1.4;
     text-align: justify;
     text-align-last: justify;
 }
-/* end custom small dedication style
+/* End Dedication */
+
