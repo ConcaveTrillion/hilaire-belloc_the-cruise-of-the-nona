@@ -6,10 +6,8 @@ abbr[epub|type~="se:era"]{
 }
 
 /* Start Dedication */
-/*
-    Small centered first dedication only.
-    Second dedication gets standard chapter formatting.
-*/
+/* Small centered first dedication only.
+    Second dedication gets standard chapter formatting. */
 section#dedication-1[epub|type~="dedication"]{
 	text-align: center;
 }
@@ -39,9 +37,9 @@ section#dedication-1[epub|type~="dedication"] > *{
 
 /* Custom justification/style as in printed text. */
 section#dedication-1[epub|type~="dedication"] p{
-    line-height: 1.4;
-    text-align: justify;
-    text-align-last: justify;
+	line-height: 1.4;
+	text-align: justify;
+	text-align-last: justify;
 }
 /* End Dedication */
 
@@ -80,4 +78,3 @@ p span.i3{
 	text-indent: -1em;
 }
 /* End Verse */
-
