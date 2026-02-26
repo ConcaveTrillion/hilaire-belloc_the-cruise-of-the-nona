@@ -40,6 +40,7 @@ section#dedication-1[epub|type~="dedication"] p{
 	line-height: 1.4;
 	text-align: justify;
 	text-align-last: justify;
+	text-transform: uppercase;
 }
 /* End Dedication */
 
