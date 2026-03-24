@@ -50,6 +50,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/78020</dc:source>
 		<dc:source>https://archive.org/details/cruiseofnonastor00bell</dc:source>
+		<meta property="se:production-notes">The words "gripe" and "griped" are nautical terms, so they were not modernized to "grip" and "gripped."</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/hilaire-belloc_the-cruise-of-the-nona</meta>
